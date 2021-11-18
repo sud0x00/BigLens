@@ -66,7 +66,7 @@ if(isset($_POST['submit'])) {
 		// If no files selected
 		echo "No files selected.";
 	}
-	echo passthru("A:\\WAMP\\www\\test12\\scripts\\batscript.bat $file_name");
+	echo passthru("----location---- $file_name");
 	
 
 }
