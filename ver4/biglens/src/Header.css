@@ -1,0 +1,43 @@
+header {
+    background-color: #9C27B0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .faq-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  }
+  
