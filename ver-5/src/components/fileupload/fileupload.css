@@ -1,0 +1,21 @@
+.search-page {
+  background-color: #00337c;
+  padding: 2rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  background-color: #13005a;
+  color: white;
+  border-radius: 1rem;
+}
+
+.search-button:hover {
+  background-color: #2877e7;
+  transition: all 0.3s ease-out;
+}

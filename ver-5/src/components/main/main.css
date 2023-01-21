@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-color: #13005a;
+
+  padding: 6rem;
+  color: white;
+  border-radius: 20px;
+}
+
+.main-header {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.main-content {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  width: 500px;
+}
+
+@media screen and (max-width: 730px) {
+  .main-container {
+    padding: 4rem;
+  }
+  .main-content {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .main-container {
+    padding: 1rem;
+  }
+  .main-content {
+    width: 300px;
+  }
+}
