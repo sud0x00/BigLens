@@ -1,0 +1,99 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  background: #13005a;
+}
+
+.nav-toggle {
+  font-size: 1.5rem;
+  color: #1c82ad;
+  background: transparent;
+  border-color: transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: #03c988;
+  transform: rotate(90deg);
+}
+
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.link {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+li > a {
+  color: white;
+}
+
+.links a {
+  transition: all 0.3s linear;
+}
+
+.link:hover {
+  background-color: #00337c;
+  transition: all 0.3s linear;
+}
+
+@media screen and (min-width: 800px) {
+  .nav {
+    position: fixed;
+  }
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+}

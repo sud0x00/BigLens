@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-size: border-box;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  background: #13005a;
+}
+
+.bg-move {
+  width: 100%;
+  height: 90vh;
+  background-image: url('./images/img.jpg');
+  background-size: 110%;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: white;
+}
+
+@media screen and (max-width: 1511px) {
+  .bg-move {
+    background-size: cover;
+  }
+}
