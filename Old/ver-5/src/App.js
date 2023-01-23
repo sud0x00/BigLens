@@ -1,5 +1,7 @@
 import Navbar from './components/navbar/Navbar';
 import Main from './components/main/Main';
+
+
 function App() {
   window.addEventListener('mousemove', function (e) {
     var bg = document.getElementById('bg-move');
