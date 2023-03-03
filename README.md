@@ -1,8 +1,8 @@
 # BigLens
-_**A google-free Google Lens opensource clone that makes use of Yandex, TinEye, Bing, and other image search services.**_
+_**BigLens is a reverse image search platform that utilizes online sources like Google, Bing, and Yandex to deliver accurate results. **_
 
 
-Our aim is to further enhance the capabilities of BigLens by incorporating computer vision to scale up its performance.
+Our aim is to further enhance the capabilities of BigLens by incorporating computer vision to scale up its performance. We plan to implement something similar to Yandex's Sibir over time.
 Join us on our journey to revolutionize the way people search for images on the internet.
 
 ![WhatsApp Image 2023-01-22 at 18 13 49](https://user-images.githubusercontent.com/60417905/213934188-6e814157-66d2-4d32-b674-eeeed862275e.jpg)
