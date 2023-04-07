@@ -1,5 +1,5 @@
 # BigLens
-_**BigLens is a reverse image search platform that utilizes online sources like Google, Bing, and Yandex to deliver accurate results. **_
+ BigLens is a reverse image search platform that utilizes online sources like Google, Bing, and Yandex to deliver accurate results. 
 
 
 Our aim is to further enhance the capabilities of BigLens by incorporating computer vision to scale up its performance. We plan to implement something similar to Yandex's Sibir over time.
